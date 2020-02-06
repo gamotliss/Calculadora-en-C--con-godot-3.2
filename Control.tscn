@@ -1,0 +1,222 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Control.cs" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -2.14371
+margin_top = 0.847
+margin_right = -2.14368
+margin_bottom = 0.846985
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pantalla" type="Label" parent="."]
+margin_left = 277.0
+margin_top = 50.0
+margin_right = 519.0
+margin_bottom = 97.0
+custom_colors/font_color = Color( 0.964706, 0.964706, 0.964706, 1 )
+custom_colors/font_outline_modulate = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 1, 1, 1, 1 )
+
+[node name="n7" type="Button" parent="."]
+margin_left = 283.69
+margin_top = 161.037
+margin_right = 323.69
+margin_bottom = 206.037
+text = "7"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n8" type="Button" parent="."]
+margin_left = 348.135
+margin_top = 160.895
+margin_right = 388.135
+margin_bottom = 205.895
+text = "8"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n9" type="Button" parent="."]
+margin_left = 412.695
+margin_top = 160.477
+margin_right = 452.695
+margin_bottom = 205.477
+text = "9"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="multiplicar" type="Button" parent="."]
+margin_left = 475.868
+margin_top = 160.334
+margin_right = 515.868
+margin_bottom = 205.334
+text = "*"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button20" type="Button" parent="."]
+margin_left = 282.178
+margin_top = 104.858
+margin_right = 322.178
+margin_bottom = 149.858
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button19" type="Button" parent="."]
+margin_left = 347.978
+margin_top = 103.712
+margin_right = 387.978
+margin_bottom = 148.712
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button18" type="Button" parent="."]
+margin_left = 412.387
+margin_top = 103.712
+margin_right = 452.387
+margin_bottom = 148.712
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="divicion" type="Button" parent="."]
+margin_left = 476.06
+margin_top = 105.333
+margin_right = 516.06
+margin_bottom = 150.333
+text = "/"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n4" type="Button" parent="."]
+margin_left = 281.949
+margin_top = 216.311
+margin_right = 321.949
+margin_bottom = 261.311
+text = "4"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n5" type="Button" parent="."]
+margin_left = 347.05
+margin_top = 217.233
+margin_right = 387.05
+margin_bottom = 262.233
+text = "5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n6" type="Button" parent="."]
+margin_left = 412.769
+margin_top = 216.719
+margin_right = 452.769
+margin_bottom = 261.719
+text = "6"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="resta" type="Button" parent="."]
+margin_left = 476.158
+margin_top = 217.127
+margin_right = 516.158
+margin_bottom = 262.127
+text = "-"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n1" type="Button" parent="."]
+margin_left = 283.355
+margin_top = 274.533
+margin_right = 323.355
+margin_bottom = 319.533
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n2" type="Button" parent="."]
+margin_left = 347.444
+margin_top = 272.735
+margin_right = 387.444
+margin_bottom = 317.735
+text = "2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n3" type="Button" parent="."]
+margin_left = 410.611
+margin_top = 273.757
+margin_right = 450.611
+margin_bottom = 318.757
+text = "3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="suma" type="Button" parent="."]
+margin_left = 474.651
+margin_top = 274.345
+margin_right = 514.651
+margin_bottom = 319.345
+text = "+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button16" type="Button" parent="."]
+margin_left = 282.33
+margin_top = 334.051
+margin_right = 322.33
+margin_bottom = 379.051
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n0" type="Button" parent="."]
+margin_left = 347.284
+margin_top = 336.358
+margin_right = 387.284
+margin_bottom = 381.358
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button14" type="Button" parent="."]
+margin_left = 411.725
+margin_top = 338.15
+margin_right = 451.725
+margin_bottom = 383.15
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="resultado" type="Button" parent="."]
+margin_left = 475.495
+margin_top = 337.23
+margin_right = 515.495
+margin_bottom = 382.23
+text = "="
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="n1" to="." method="_on_n1_pressed"]
+[connection signal="pressed" from="n2" to="." method="_on_n2_pressed"]
+[connection signal="pressed" from="n3" to="." method="_on_n3_pressed"]
